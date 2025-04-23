@@ -3,24 +3,191 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/media.css">
     <title>project 1</title>
 </head>
 <body>
-    <header>
+    <!-- startheader -->
+    <header class="header">
         <div class="container">
             <div class="row">
                 <div class="logo">
-                    logo
+                    <img src="assets/images/Logo.svg" alt="logo">
+                    <a href="#">mangcoding store</a>
                 </div>
-                <div class="nav">
-                    nav
-                </div>
+                <nav class="nav">
+                    <ul>
+                        <li>
+                            <a class="active" href="#">Home</a>
+                        </li>
+                        <li>
+                            <a href="#">Course</a>
+                        </li>
+                        <li>
+                            <a href="#">About Us</a>
+                        </li>
+                        <li>
+                            <a href="#">Article</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
                 <div class="auth">
-                    auth
+                    <a class="login" href="#">Login</a>
+                    <a class="register" href="#">Register</a>
+                </div>
+                <div class="menu">
+                    <i class="fa-solid fa-bars" style="color: #000000;"></i>
                 </div>
             </div>
         </div>
     </header>
+    <!--end header-->
+    <!--start heading cover-->
+    <div class="container">
+        <div class="heading-cover">
+            <div class="start">
+                <p class="mainColor-heading">Let’s Begins</p>
+                <h1>Let's Find The Right <span>Course</span> For you</h1>
+                <p class="heading-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dignissim, sem non convallis molestie.</p>
+                <div class="heading-buttons">
+                    <a class="register" href="#">Register</a>
+                    <a class="play-vedio" href=""><i class="fa-solid fa-circle-play" style="color: #FFD43B;font-size: 20px;"></i> Play Video</a>
+                </div>
+            </div>
+            <div class="end">
+                <img src="./assets/images/heading.png" alt="courses" height="500px" width="100%">
+            </div>
+        </div>
+    </div>
+    <!--end heading cover-->
+    <!--start features-->
+    <div class="features-section">
+        <div class="container">
+            <div class="features">
+                <div class="features-content">
+                    <div class="featurers-heading">
+                        <p class="main-heading">WHAT WE GIVE</p>
+                        <h2>What do You Get From Us</h2>
+                        <p class="heading-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dignissim, sem non convallis molestie.</p>
+                    </div>
+                    <div class="feature">
+                        <div><i class="fa-regular fa-user" style="color: #FFD43B;"></i></div>
+                        <h3>Professional Teacher</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dignissim, sem non convallis molestie.</p>
+                    </div>
+                    <div class="feature">
+                        <div><i class="fa-solid fa-graduation-cap" style="color: #FFD43B;"></i></i></div>
+                        <h3>Course Certificate</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dignissim, sem non convallis molestie.</p>
+                    </div>
+                    <div class="feature">
+                        <div><i class="fa-solid fa-award" style="color: #FFD43B;"></i></div>
+                        <h3>interesting learning</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dignissim, sem non convallis molestie.</p>
+                    </div>
+                </div>
+                <div class="features-arrows">
+                    <i class="fa-solid fa-circle-chevron-left" style="color: #FFD43B;font-size: 35px;"></i>
+                    <i class="fa-solid fa-circle-chevron-right" style="color: #FFD43B;font-size: 35px;"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--end features-->
+    <!--start overview-->
+    <div class="overview-section">
+        <div class="container">
+            <img src="./assets/images/overview.png" alt="overview">
+            <div class="overview-content">
+                <h2><span>SELECTED COURSE</span><br>People Taking Courses</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dignissim, sem non convallis molestie.</p><br>
+                <div class="overview-numbers">
+                    <div class="row">
+                        <div><p class="number">6,000</p><p>People Views</p></div>
+                        <div><p class="number">4,000</p><p>User</p></div>
+                        <div><p class="number">100</p><p>Course</p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--end overview-->
+    <!--start courses-->
+    <div class="container">
+        <div class="courses">
+            <div class="some-courses">
+                <div class="card">
+                    <div class="card-image">
+                      <img src="./assets/images/course1.png" alt="Course Image">
+                      <div class="badge">Best Course</div>
+                      <div class="price">$ 20 USD</div>
+                    </div>
+                    <div class="card-content">
+                      <div class="card-title">HTML & CSS</div>
+                      <div class="card-info">
+                        <span>120 Videos</span>
+                        <span>2 Teacher</span>
+                      </div>
+                      <div class="views">1,500 Views</div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-image">
+                      <img src="./assets/images/course2.png" alt="Course Image">
+                      <div class="badge">Best Course</div>
+                      <div class="price">$ 20 USD</div>
+                    </div>
+                    <div class="card-content">
+                      <div class="card-title">Photographer</div>
+                      <div class="card-info">
+                        <span>100 Videos</span>
+                        <span>2 Teacher</span>
+                      </div>
+                      <div class="views">1,500 Views</div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-image">
+                      <img src="./assets/images/course3.png" alt="Course Image">
+                      <div class="badge">Best Course</div>
+                      <div class="price">$ 20 USD</div>
+                    </div>
+                    <div class="card-content">
+                      <div class="card-title">JavaScript</div>
+                      <div class="card-info">
+                        <span>120 Videos</span>
+                        <span>2 Teacher</span>
+                      </div>
+                      <div class="views">1,500 Views</div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-image">
+                      <img src="./assets/images/course4.png" alt="Course Image">
+                      <div class="badge">Best Course</div>
+                      <div class="price">$ 20 USD</div>
+                    </div>
+                    <div class="card-content">
+                      <div class="card-title">Desain Grafis</div>
+                      <div class="card-info">
+                        <span>100 Videos</span>
+                        <span>2 Teacher</span>
+                      </div>
+                      <div class="views">1,500 Views</div>
+                    </div>
+                  </div>
+            </div>
+            <div class="more-courses">
+                <h2><span>AVAILABLE FOR YOU</span><br>Available Courses</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dignissim, sem non convallis molestie.</p>
+                <a class="see-all" href="">See all</a>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

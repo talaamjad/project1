@@ -1,0 +1,291 @@
+@import './base.css';
+
+body{
+    font-family: var(--mainFont);
+    background-color: #fff;
+}
+/* start header style */
+.header{
+    background-color: #FFF;
+    padding: 30px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); 
+}
+.header .logo{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: var(--mainColor);
+}
+.header .logo a{
+    color: var(--mainColor);
+    font-weight: 500;
+}
+.header .active{
+    font-weight: 800;
+}
+.nav ul{
+    display: flex;
+    gap: 35px;
+    color: black;
+}
+.nav ul a {
+    color: black;
+}
+.header .auth{
+    display: flex;
+    gap: 10%;
+    width: 20%;
+}
+.header .auth a{
+    padding: 4px 10px;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: 600;
+    border: solid 1px var(--mainColor);
+}
+.login{
+    color: var(--mainColor);
+    background-color: white;
+    border: solid 1px var(--mainColor);
+    width: 40%; 
+}
+.register{
+    color: white;
+    background-color: var(--mainColor);
+}
+.header .menu{
+    display: none;
+}
+/* end header style */
+
+/*start heading cover style*/
+.heading-cover{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 15vh;
+}
+.heading-cover .start{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 400px;
+}
+.heading-cover .start .mainColor-heading{
+    width: 10%;
+    color: var(--mainColor);
+}
+.heading-cover .start h1{
+    width: 70%;
+    font-size: 45px;
+    font-weight: 700;
+    font-family: var(--mainFont);
+}
+.heading-cover .start h1 span{
+    color: var(--mainColor);
+}
+.heading-cover .start .heading-content{
+    color: #969696;
+    width: 80%;
+}
+.heading-cover .start .heading-buttons a{
+    padding: 4px 10px;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: 600;
+}
+.heading-cover .start .heading-buttons .play-vedio{
+    color: black;
+    margin-left: 20px;
+}
+.heading-cover .end{
+    width: 50%;
+}
+/*end heading cover style*/
+
+/*start featurse style*/
+.features-section{
+    width: 100%;
+    background-color: #eee;
+    padding: 100px 0;
+    margin-top: 50px;
+}
+.features-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 1%;
+}
+.featurers-heading{
+    width: 25%;
+    padding: 30px;
+}
+.featurers-heading .main-heading{
+    color: var(--mainColor);
+}
+.featurers-heading h2{
+    font-size: 28px;
+}
+.featurers-heading .heading-content{
+    color: #969696;
+}
+.feature{
+    width: 22%;
+    background-color: #545BE8;
+    padding: 2%;
+    border-radius: 3%;
+    margin: 5px;
+}
+.feature i{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: white;
+    padding-left: 14px;
+    padding-top: 15px;
+}
+.features-arrows{
+    display: flex;
+    justify-content: flex-end;
+    gap: 2%;
+    margin-top: 1%;
+    transform: rotate(0deg);
+}
+.features-arrows i {
+    transition: transform 0.3s ease;
+}
+/*end featurse style*/
+
+/*start overview style*/
+.overview-section{
+    background: linear-gradient(#545BE8,#272DB0);
+}
+.overview-section .container{
+    display: flex;
+    gap: 2%;
+    padding: 2%;
+    color: white;
+}
+.overview-section .container img{
+    width: 49%;
+}
+.overview-content{
+    width: 49%;
+    margin-top: 10%;
+}
+.overview-content span{
+    color: #F0C932;
+    font-weight: 300;
+}
+.overview-content h2{
+    margin: 4% 0;
+    line-height: 8vh;
+    width: 80%;
+}
+.overview-content p{
+    color: #DDDDDD;
+}
+.overview-content .number{
+    color: #F0C932;
+    font-size: 30px;
+    font-weight: 800;
+}
+/*end overview style*/
+
+/*start courses style*/
+.courses{
+    display: flex;
+    gap: 2%;
+    padding: 5%;
+}
+.courses .some-courses{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    column-gap: 2%;
+}
+.card {
+    width: 40%;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+}
+.card-image {
+    position: relative;
+}
+.card-image img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: var(--mainColor);
+    color: white;
+    padding: 5px 10px;
+    font-size: 13px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.price {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    color: white;
+    padding: 6px 12px;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 5px;
+}
+  .card-content {
+    padding: 15px;
+}
+.card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+.card-info {
+    font-size: 14px;
+    color: #777;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+.views {
+    font-size: 14px;
+    color: var(--mainColor);
+    font-weight: 500;
+}
+.courses .more-courses{
+    width: 28%;
+    display: flex;
+    flex-direction: column;
+}
+.more-courses span{
+    color: var(--mainColor);
+    font-weight: 300;
+    font-size: 16px;
+}
+.more-courses h2{
+    margin: 10% 0;
+}
+.more-courses p{
+    color: #969696;
+    margin: 10% 0;
+}
+.see-all{
+    padding: 4px 10px;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: 600;
+    color: white;
+    background-color: var(--mainColor);
+}
+/*end courses style*/

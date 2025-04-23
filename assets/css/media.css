@@ -1,0 +1,83 @@
+/*start header media style*/
+@media screen and (max-width: 1175px) {
+    .header .nav,
+    .header .auth {
+        display: none;
+    }
+
+    .header .menu {
+        display: block;
+    }
+}
+/*end header media style*/
+
+/*start heading media style*/
+@media screen and (max-width: 1080px) {
+    .heading-cover{
+        flex-direction: column;
+        gap: 30px;
+        align-content: center;
+    }
+    .heading-cover .start ,
+    .heading-cover .end{
+        width: 80%;
+        height: auto;
+        gap: 30px;
+    }
+    .heading-cover .start .mainColor-heading{
+        width: 100%;
+    }
+    .heading-cover .start h1{
+        width: 100%;
+    }
+}
+/*end heading media style*/
+
+/*start features media style*/
+@media screen and (max-width: 1080px) {
+    .features-content{
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+    .feature , .featurers-heading{
+        width: 100%;
+    }
+    .features-arrows i {
+        transform: rotate(90deg);
+    }
+}
+/*end features media style*/
+
+/*start overview media style*/
+@media screen and (max-width: 1080px) {
+    .overview-section .container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+/*end overview media style*/
+
+/*start course media style*/
+@media screen and (max-width: 1080px) {
+    .courses{
+        flex-direction: column;
+        align-items: center;
+    }
+    .courses .some-courses{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    .card{
+        width: 80%;
+    }
+    .courses .more-courses{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
